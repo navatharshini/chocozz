@@ -1,0 +1,303 @@
+<body>
+    <nav>
+        <img src="CHOCOZZ_new.png" alt="Chocozz Logo" class="logo">
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <div class="image-container">
+        <img src="xx.jpg" alt="Chocozz Offer" class="static-image">
+    </div>
+
+
+    <section class="products">
+        <div class="product-card">
+          <img src="giftchoco.jpg">
+          <h3>Assorted Chocolate Box</h3>
+          <p>Price: $25.99</p>
+          <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="christmaschoco.jpg" alt="Chocolate Box 2">
+          <h3>Christmas Treat</h3>
+          <p>Price: $19.99</p>
+          <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="dates-chocolate.jpg" alt="Chocolate Box 3">
+          <h3>Date Chocolate pack</h3>
+          <p>Price: $15.99</p>
+          <button>Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="str_waffel.jpg" alt="Chocolate Box 3">
+            <h3>Strawberry Waffel</h3>
+            <p>Price: $15.99</p>
+            <button>Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="str_roll.jpg" alt="Chocolate Box 3">
+            <h3>Strawberry Rolls</h3>
+            <p>Price: $15.99</p>
+            <button>Buy Now</button>
+          </div>
+          <div class="product-card">
+            <img src="box_c.jpg" alt="Chocolate Box 3">
+            <h3>Premium ChocoBox</h3>
+            <p>Price: $15.99</p>
+            <button>Buy Now</button>
+          </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          
+          <!-- Left Column -->
+          <div class="footer-column">
+            <h3>Chocozz</h3>
+            <p>
+              Chocozz is an online service where you can get the chocolates, gifts, and toffees delivered to your doorstep. 
+              Taste Meets Soul, anywhere in Sri Lanka!
+            </p>
+          </div>
+    
+          <!-- Middle Column -->
+          <div class="footer-column">
+            <h3>Informations</h3>
+            <a href="#">My Account</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Checkout</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund and Returns Policy</a>
+            <a href="#">Terms and Conditions</a>
+          </div>
+    
+          <!-- Payment Accepted -->
+          <div class="footer-column">
+            <h3>Payment Accepted</h3>
+            <div class="payments">
+              <img src="Visa-Emblem.jpg" alt="Visa">
+              <img src="mastercard.jpeg" alt="Mastercard">
+              <img src="american.jpeg" alt="American Express">
+              <img src="Discover-Card-logo.webp" alt="Discover">
+            </div>
+          </div>
+    
+          <!-- Contact Info -->
+          <div class="footer-column">
+            <h3>Contact Info</h3>
+            <p class="contact-info"><span>Whatsapp:</span> 0772435338</p>
+            <p class="contact-info"><span>Email:</span> chocozz@gmail.com</p>
+            <p class="contact-info"><span>Location:</span> Pointpedro, Sri Lanka</p>
+    
+            <!-- Social Media -->
+            <h3>Connect with Us</h3>
+            <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="mailto:chocohub@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+
+<style>
+    footer {
+      background-color: #f9f9f9;
+      padding: 30px 20px;
+      color: #333;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-column {
+      flex: 1;
+      margin: 10px;
+      min-width: 250px;
+    }
+
+    .footer-column h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .footer-column p,
+    .footer-column a {
+      color: #555;
+      text-decoration: none;
+      font-size: 14px;
+      margin: 5px 0;
+      display: block;
+    }
+
+    .footer-column a:hover {
+      color: #4b2e83;
+    }
+
+    .payments img {
+      width: 50px;
+      margin: 5px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 5px;
+      color: #555;
+      font-size: 24px;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #4b2e83;
+    }
+
+    /* Bottom contact details */
+    .contact-info {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .contact-info span {
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  flex: 0 0 32%;
+  min-width: 250px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+    .product-card img {
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+    }
+    .product-card h3 {
+      margin: 10px 0;
+    }
+    .product-card p {
+      color: #555;
+    }
+    .product-card button {
+      background-color: #4b2e83;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .product-card:hover {
+  transform: translateY(-10px); /* Pop-up effect */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  filter: brightness(1.05); /* Slight brightness increase for more emphasis */
+}
+
+    nav {
+        background-color: #432089;
+        display: flex; /* Use flexbox for horizontal alignment */
+        align-items: center; /* Align items vertically in the center */
+        justify-content: space-between; /* Space out logo and nav items */
+        padding-right: 15px; /* Add horizontal padding */
+        padding-left: 0px;
+        height: 120px; /* Set navbar height */
+        width: 100%;
+    }
+
+    .logo {
+        margin-top: 0px;
+        height: 350px; /* Increase logo size */
+        width: auto; /* Maintain aspect ratio */
+        
+    }
+
+    ul {
+        display: flex; /* Align navigation items horizontally */
+        list-style: none; /* Remove default list styling */
+        margin: 0;
+        padding: 50;
+    }
+
+    li {
+        margin-left: 30px; /* Add spacing between navigation items */
+        color: white;
+        font-size: 18px; /* Adjust font size */
+        cursor: pointer; /* Make it look clickable */
+        line-height: 1; /* Ensure proper text alignment */
+    }
+
+    li:hover {
+        color: #c8651b; /* Change color to logo color */
+        transform: scale(1.4); /* Increase size slightly */
+    }
+
+
+    .static-image {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        
+    }
+    body {
+  background: linear-gradient(45deg, #8a6ec1, #c8651b, #571456, #ff416c);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  color: #333;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+    button {
+  background-color: #432089; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding around text */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Make the cursor a pointer to show it's clickable */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+button:hover {
+  transform: scale(1.1); /* Increase size slightly */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  background-color: #c8651b; /* Change to a different color when hovered */
+}
+
+</style>
